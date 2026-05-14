@@ -8,14 +8,14 @@ public class except{
             int a = 10;
             int b = sc.nextInt();
             if(b == 0){
-                throw new ajayexception("Denominator cannot be zero");
+                throw new ajayexception("youuuuu beeaatchhhh");
             }
             int result = a / b;
             System.out.println("Result: "+ result);
         
         } catch (ajayexception e) {
             
-            System.out.println("Error: Cannot divide by zero."+ e.getMessage());
+            System.out.println("fuccckkkk"+ e.getMessage());
         
         } catch (InputMismatchException e) {
             
